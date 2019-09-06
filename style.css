@@ -1,0 +1,152 @@
+body,
+html {
+  width: 100%;
+  height: 100%;
+  
+}
+
+body {
+
+  font-family: 'Domine', serif;
+
+  background-image: url("travel-background.jpg");
+  background-position: top;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-color: rgb(244, 221, 231);
+
+}
+
+main {
+	font-family: 'PT Mono', monospace;
+	color: rgb(105,105,105);
+
+
+}
+
+.container {
+	padding: 3% 3%;
+
+}
+
+.background-white-fade {
+	background-color: rgba(255, 255, 255, 0.9);
+}
+
+h1 {
+	font-size: 8vw;
+	color: white;
+	
+}
+
+h2 {
+	font-family: 'PT Mono', monospace;
+	font-size: 3vw;
+	color: black;
+}
+
+@media (max-width:376px) {
+	.container{
+		padding: 5%;
+	}
+	h1 {font-size:3em;
+	}
+	h2 {
+		font-size:1em;
+	}
+
+}
+
+@media (max-width: 750px) {
+	.jumbotron h1{
+		font-size:2.5em
+	}
+	.jumbotron p {
+		font-size:1em;
+	}
+}
+
+		/* NAVBAR */
+
+
+#navbarNavDropdown {
+	justify-content: space-between;
+}
+
+
+#top-subscribe {
+	margin-right: 8px
+}
+
+
+
+	/*INTRO*/
+
+.intro-pic {
+	display: flex;
+	width: 100%;
+	object-fit: contain;
+	border-radius: 5px;
+	border: solid rgb(211,211,211) 10px;
+}
+
+		/*PAGE HEADER*/
+
+.page-header {
+	text-decoration: 	underline;	
+}
+
+		/*BLOG POST*/
+
+.blog-post {
+	padding: 20px;
+	border-radius: 5px;
+}
+
+.pictures {
+	display: flex;
+	width: 100%;
+	object-fit: scale-down;
+	border-radius: 5px;
+	border: solid rgb(211,211,211) 10px;
+}
+
+		/*SOCIAL MEDIA FOOTER*/
+
+footer {
+	position: relative;
+	top: 10px;
+
+}
+
+.row-wide {
+	padding: 5px;
+}
+
+.bottom-subscribe {
+	padding-top: 5px
+}
+
+#scroll {
+	height:30px;
+	width: 30px;
+}
+
+.social-icon {
+	height:80px;
+	width: 80px;
+	transition: 1s;
+	border-radius: 25%;
+}
+
+.social-icon:hover{
+	transform: scale(1.3);
+}
+
+@media (max-width:500px) {
+	.social-icon {
+		height:40px;
+		width: 40px;
+	}
+}
+
